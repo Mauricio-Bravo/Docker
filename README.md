@@ -1,7 +1,7 @@
 # Docker
 
 # 🐳 Proyecto Docker DEVASC 
-– Johan Espinoza
+- Johan Espinoza
 - Mauricio Bravo
 - David Bustamante
 
