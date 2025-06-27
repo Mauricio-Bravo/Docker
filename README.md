@@ -87,7 +87,7 @@ CMD ["python", "app1.py"]
 
 ```bash
 docker build -t flask-ip-app .
-docker run -d --restart always -p 8000:8000 --name contenedor8000 flask-ip-app
+docker update --restart=always contenedor8000
 ```
 
 ---
@@ -163,7 +163,7 @@ CMD ["python", "app2.py"]
 
 ```bash
 docker build -t flask-ip-style .
-docker run -d --restart always -p 8181:8181 --name contenedor8181 flask-ip-style
+docker update --restart=always contenedor8181
 ```
 
 ---
@@ -200,7 +200,7 @@ CMD ["python3", "-m", "http.server", "8888"]
 echo "Construyendo imagen..."
 docker build -t web8888 .
 echo "Ejecutando contenedor..."
-docker run -d --restart always -p 8888:8888 --name contenedor8888 web8888
+docker update --restart=always contenedor8888
 echo "Contenedores activos:"
 docker ps
 ```
