@@ -8,7 +8,7 @@ Este proyecto permite automatizar respaldos comprimidos en `.zip` de una carpeta
 - Bash
 - `rclone`
 - `cron`
-- `zip`
+
 
 ## 🚀 Pasos realizados con sus comandos
 
